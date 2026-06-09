@@ -318,7 +318,8 @@ lazyguy/
 │       │       ├── streak-StreakService_connectquery.ts
 │       │       └── user_pb.ts
 │       │
-│       ├── middleware.ts                       ← Auth middleware (protected routes)
+│       ├── middleware                       ← Auth middleware (protected routes)
+│       |   └── middleware.ts
 │       │
 │       └── public/
 │           ├── favicon.ico
