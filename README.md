@@ -24,7 +24,7 @@ lazyguy/
 │   └── notifications.proto
 │
 ├── client/
-│   ├── desktop/                                ← Electron 29 Desktop App
+│   ├── desktop-app/                                ← Electron 29 Desktop App
 │   │   ├── package.json
 │   │   ├── tsconfig.json
 │   │   ├── electron-builder.yml                ← Build config: Windows, Mac, Linux
@@ -44,7 +44,7 @@ lazyguy/
 │   │       ├── icon.icns
 │   │       └── tray-icon.png
 │   │
-│   └── web/                                     ← Next.js 14 Frontend
+│   └── web-app/                                     ← Next.js 14 Frontend
 │       ├── package.json
 │       ├── next.config.ts
 │       ├── tailwind.config.ts
