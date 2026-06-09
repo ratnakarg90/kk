@@ -3,7 +3,7 @@
 lazyguy/
 ├── README.md
 ├── .gitignore
-├── .env.example
+├── .env
 ├── docker-compose.yml
 ├── docker-compose.prod.yml
 ├── Makefile
@@ -50,7 +50,7 @@ lazyguy/
 │       ├── tailwind.config.ts
 │       ├── tsconfig.json
 │       ├── postcss.config.js
-│       ├── .env.local.example
+│       ├── .env.local
 │       │
 │       ├── app/
 │       │   ├── layout.tsx                      ← Root layout + providers
@@ -388,7 +388,7 @@ lazyguy/
     ├── go.sum
     ├── Makefile
     ├── Dockerfile
-    ├── .env.example
+    ├── .env
     ├── .air.toml                               ← Air live-reload config
     │
     ├── cmd/
